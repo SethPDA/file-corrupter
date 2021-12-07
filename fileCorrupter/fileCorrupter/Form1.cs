@@ -135,8 +135,11 @@ namespace fileCorrupter
             richTextBox1.Clear();
             richTextBox1.Text = "All files are DONE!";
 
-            MessageBox.Show(errors);
-            MessageBox.Show(fileRenameErrors);
+            if(errors != null || fileRenameErrors != null)
+            {
+                MessageBox.Show(errors);
+                MessageBox.Show(fileRenameErrors);
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)

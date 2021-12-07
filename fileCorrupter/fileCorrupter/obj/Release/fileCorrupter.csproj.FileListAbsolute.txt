@@ -7,3 +7,13 @@ C:\Users\Robby March\Documents\Visual Studio 2015\Projects\fileCorrupter\fileCor
 C:\Users\Robby March\Documents\Visual Studio 2015\Projects\fileCorrupter\fileCorrupter\obj\Release\fileCorrupter.exe
 C:\Users\Robby March\Documents\Visual Studio 2015\Projects\fileCorrupter\fileCorrupter\obj\Release\fileCorrupter.pdb
 C:\Users\Robby March\Documents\Visual Studio 2015\Projects\fileCorrupter\fileCorrupter\obj\Release\fileCorrupter.csprojResolveAssemblyReference.cache
+E:\Development\VisualStudio\fileCorrupter\fileCorrupter\fileCorrupter\bin\Release\fileCorrupter.exe.config
+E:\Development\VisualStudio\fileCorrupter\fileCorrupter\fileCorrupter\bin\Release\fileCorrupter.exe
+E:\Development\VisualStudio\fileCorrupter\fileCorrupter\fileCorrupter\bin\Release\fileCorrupter.pdb
+E:\Development\VisualStudio\fileCorrupter\fileCorrupter\fileCorrupter\obj\Release\fileCorrupter.csproj.AssemblyReference.cache
+E:\Development\VisualStudio\fileCorrupter\fileCorrupter\fileCorrupter\obj\Release\fileCorrupter.Form1.resources
+E:\Development\VisualStudio\fileCorrupter\fileCorrupter\fileCorrupter\obj\Release\fileCorrupter.Properties.Resources.resources
+E:\Development\VisualStudio\fileCorrupter\fileCorrupter\fileCorrupter\obj\Release\fileCorrupter.csproj.GenerateResource.cache
+E:\Development\VisualStudio\fileCorrupter\fileCorrupter\fileCorrupter\obj\Release\fileCorrupter.csproj.CoreCompileInputs.cache
+E:\Development\VisualStudio\fileCorrupter\fileCorrupter\fileCorrupter\obj\Release\fileCorrupter.exe
+E:\Development\VisualStudio\fileCorrupter\fileCorrupter\fileCorrupter\obj\Release\fileCorrupter.pdb

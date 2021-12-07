@@ -33,16 +33,16 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // fileToCorrupt
             // 
+            this.fileToCorrupt.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fileToCorrupt.Location = new System.Drawing.Point(12, 21);
             this.fileToCorrupt.Name = "fileToCorrupt";
             this.fileToCorrupt.Size = new System.Drawing.Size(641, 73);
             this.fileToCorrupt.TabIndex = 0;
-            this.fileToCorrupt.Text = "File To Corrupt";
+            this.fileToCorrupt.Text = "Files To Corrupt";
             this.fileToCorrupt.UseVisualStyleBackColor = true;
             this.fileToCorrupt.Click += new System.EventHandler(this.fileToCorrupt_Click);
             // 
@@ -77,22 +77,13 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(237, 287);
+            this.checkBox1.Location = new System.Drawing.Point(219, 287);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(177, 17);
+            this.checkBox1.Size = new System.Drawing.Size(214, 17);
             this.checkBox1.TabIndex = 4;
-            this.checkBox1.Text = "Scramble Name and Extension?";
+            this.checkBox1.Text = "Scramble Name and remove extension?";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(59, 321);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -100,7 +91,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(665, 372);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.corrupt);
@@ -120,7 +110,6 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button1;
     }
 }
 
