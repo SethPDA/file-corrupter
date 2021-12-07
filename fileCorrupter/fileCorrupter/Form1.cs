@@ -32,6 +32,7 @@ namespace fileCorrupter
 
 
         string errors;
+        string fileRenameErrors;
         void corruptFile(string fileName, string newFileName)
         {
             byte[] bytes = File.ReadAllBytes(fileName);
@@ -70,7 +71,15 @@ namespace fileCorrupter
                 string test = currentFilePath + newFileName;
                 //MessageBox.Show(test);
 
-                File.Move(fileName, currentFilePath + newFileName);
+                try
+                {
+                    File.Move(fileName, currentFilePath + newFileName);
+                }
+                catch (Exception e)
+                {
+                    fileRenameErrors += e;
+                }
+
             }
         }
 
@@ -127,6 +136,7 @@ namespace fileCorrupter
             richTextBox1.Text = "All files are DONE!";
 
             MessageBox.Show(errors);
+            MessageBox.Show(fileRenameErrors);
         }
 
         private void Form1_Load(object sender, EventArgs e)
